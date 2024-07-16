@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#heading {
+    /* text-align: center; */
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width:600px;
+    /* margin: 35px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: blue; */
+    /* box-sizing: border-box; */
+}
+.container{
+     display:flex; 
+    /* justify-content: center; */
+     align-items: center; 
+    height:100%;
+    width:100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.game{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height:500px;
+    width:600px;
+    /* border:2px solid black; */
+    /* align-items:flex-start;  */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.section-1{
+    width:600px;
+    display:flex;
+    /* flex-shrink: 4; */
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    /* justify-content: space-around; */
+    /* margin-bottom: 0px; */
+    /* flex-shrink: 4; */
+    /* border:2px solid black; */
+}
+
+
+.section-2{
+    width:600px;
+    height:110px;
+    display:flex;
+    flex-shrink: 4;
+    /* font-size: 30px; */
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap:3rem;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* border:2px solid black; */
+}
+
+.img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#you-count,#comp-count{
+    font-size: 60px;
+    height:10px;
+    /* padding-top: 30px; */
+}
+
+#para{
+    /* padding-bottom:40px; */
+    font-size:25px;
+    /* border: 2px solid black; */
+}
+
+#msg{
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    height:35px;
+    width:250px;
+    text-align: center;
+    line-height:32px;
+    font-size: 20px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1024px) {
+    .container{
+        flex-shrink: 3;
+        flex-wrap:wrap;
+    }
+    
+}
+
+
+
+
